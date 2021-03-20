@@ -39,3 +39,11 @@
     text-align: left;
     left: 0;
 }
+.coin {
+background-color:#E4EFFF;
+border:1px solid #9FC6FF;
+padding:5px;
+-moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+}
