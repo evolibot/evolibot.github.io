@@ -7,10 +7,14 @@
     position: absolute;
     left: 0;
     top: 0;
+    user-select: none;
+    -webkit-user-drag: none;
     padding: 20px;
     color: white;
 }
 .nav ul{
+    
+
     position: absolute;
     right: 30px;
     top: 15px;
@@ -23,3 +27,4 @@
     color: white;
     padding: 5px;
 }
+
