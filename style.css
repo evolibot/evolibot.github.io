@@ -11,11 +11,10 @@
     -webkit-user-drag: none;
     padding: 20px;
     color: white;
-    -webkit-transition: color 1s;
-    transition: color 1s;
-    }
-.nav div:hover {
-        color: rgb(213,162, 115);
+    text-decoration: none;
+    cursor: pointer;
+   
+    color: rgb(213,162, 115);
 
 }
 .nav ul{
