@@ -1,6 +1,6 @@
 .nav{
-    height: 70px;
-    background: black;
+    height: 75px;
+    background: #23272a;
 }
 .nav div{
     display: inline-block;
@@ -8,14 +8,10 @@
     left: 0;
     top: 0;
     user-select: none;
-    -webkit-user-drag: none;
     padding: 20px;
     color: white;
     text-decoration: none;
     cursor: pointer;
-   
-    color: rgb(213,162, 115);
-
 }
 .nav ul{
     
@@ -29,20 +25,18 @@
     display: inline-block;
 }
 .nav ul li a{
+    outline: 0;
+    transition: 0.3s;
     color: white;
     padding: 5px;
 }
-.addbot div{
-    user-select: none;
-    -webkit-user-drag: none;
-    text-align: left;
-    left: 0;
+.nav ul li a:hover{
+    outline: 0;
+    transition: 0.3s;
+    color: rgb(213,162, 115);
 }
-.coin {
-background-color:#E4EFFF;
-border:1px solid #9FC6FF;
-padding:5px;
--moz-border-radius:10px 0;
--webkit-border-radius:10px 0;
-border-radius:10px 0;
+.h2 img{
+    width: 100%;
+    height: auto;
 }
+
